@@ -5,7 +5,7 @@ class Main{
          public static void summer( int temp ) {
                   if( temp > 80 ){
                           System.out.print( " * " );
-                          temp -= 1;
+                          temp -= 2; //changed to decrement by 2 each time
                           summer( temp );
                   }
          }
